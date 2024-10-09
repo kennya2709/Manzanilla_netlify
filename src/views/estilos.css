@@ -1,0 +1,29 @@
+.img img {
+    width: 200px; /* Ajusta el ancho */
+    height: 200px; /* Ajusta la altura */
+    object-fit: cover; /* Mantén el aspecto de la imagen */
+  }
+  
+  .card-title p {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em; /* Limita la altura del nombre a 2 líneas */
+    line-height: 1.5em; /* Ajusta el espaciado entre las líneas */
+  }
+  
+  .numbers {
+    height: 100px; /* Ajusta la altura del contenedor para que todos sean uniformes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card-category {
+    white-space: normal;
+    max-height: 2em; /* Limita la altura de la categoría */
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
